@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EA5313961CA7800E00FF1262"
+               BuildableName = "cpFlappyBird.app"
+               BlueprintName = "cpFlappyBird"
+               ReferencedContainer = "container:cpFlappyBird.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EA5313AA1CA7800F00FF1262"
+               BuildableName = "cpFlappyBirdTests.xctest"
+               BlueprintName = "cpFlappyBirdTests"
+               ReferencedContainer = "container:cpFlappyBird.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EA5313B51CA7800F00FF1262"
+               BuildableName = "cpFlappyBirdUITests.xctest"
+               BlueprintName = "cpFlappyBirdUITests"
+               ReferencedContainer = "container:cpFlappyBird.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EA5313961CA7800E00FF1262"
+            BuildableName = "cpFlappyBird.app"
+            BlueprintName = "cpFlappyBird"
+            ReferencedContainer = "container:cpFlappyBird.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EA5313961CA7800E00FF1262"
+            BuildableName = "cpFlappyBird.app"
+            BlueprintName = "cpFlappyBird"
+            ReferencedContainer = "container:cpFlappyBird.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EA5313961CA7800E00FF1262"
+            BuildableName = "cpFlappyBird.app"
+            BlueprintName = "cpFlappyBird"
+            ReferencedContainer = "container:cpFlappyBird.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
