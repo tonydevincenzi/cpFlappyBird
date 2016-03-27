@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA53139B1CA7800E00FF1262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53139A1CA7800E00FF1262 /* AppDelegate.swift */; };
+		EA53139D1CA7800E00FF1262 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53139C1CA7800E00FF1262 /* ViewController.swift */; };
+		EA5313A01CA7800E00FF1262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA53139E1CA7800E00FF1262 /* Main.storyboard */; };
+		EA5313A21CA7800E00FF1262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5313A11CA7800E00FF1262 /* Assets.xcassets */; };
+		EA5313A51CA7800E00FF1262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5313A31CA7800E00FF1262 /* LaunchScreen.storyboard */; };
+		EA5313B01CA7800F00FF1262 /* cpFlappyBirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5313AF1CA7800F00FF1262 /* cpFlappyBirdTests.swift */; };
+		EA5313BB1CA7800F00FF1262 /* cpFlappyBirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5313BA1CA7800F00FF1262 /* cpFlappyBirdUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA5313AC1CA7800F00FF1262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA53138F1CA7800E00FF1262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5313961CA7800E00FF1262;
+			remoteInfo = cpFlappyBird;
+		};
+		EA5313B71CA7800F00FF1262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA53138F1CA7800E00FF1262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5313961CA7800E00FF1262;
+			remoteInfo = cpFlappyBird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA5313971CA7800E00FF1262 /* cpFlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cpFlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA53139A1CA7800E00FF1262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA53139C1CA7800E00FF1262 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA53139F1CA7800E00FF1262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA5313A11CA7800E00FF1262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA5313A41CA7800E00FF1262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA5313A61CA7800E00FF1262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5313AB1CA7800F00FF1262 /* cpFlappyBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cpFlappyBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5313AF1CA7800F00FF1262 /* cpFlappyBirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cpFlappyBirdTests.swift; sourceTree = "<group>"; };
+		EA5313B11CA7800F00FF1262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5313B61CA7800F00FF1262 /* cpFlappyBirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cpFlappyBirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5313BA1CA7800F00FF1262 /* cpFlappyBirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cpFlappyBirdUITests.swift; sourceTree = "<group>"; };
+		EA5313BC1CA7800F00FF1262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5313941CA7800E00FF1262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5313A81CA7800F00FF1262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5313B31CA7800F00FF1262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA53138E1CA7800E00FF1262 = {
+			isa = PBXGroup;
+			children = (
+				EA5313991CA7800E00FF1262 /* cpFlappyBird */,
+				EA5313AE1CA7800F00FF1262 /* cpFlappyBirdTests */,
+				EA5313B91CA7800F00FF1262 /* cpFlappyBirdUITests */,
+				EA5313981CA7800E00FF1262 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5313981CA7800E00FF1262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5313971CA7800E00FF1262 /* cpFlappyBird.app */,
+				EA5313AB1CA7800F00FF1262 /* cpFlappyBirdTests.xctest */,
+				EA5313B61CA7800F00FF1262 /* cpFlappyBirdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5313991CA7800E00FF1262 /* cpFlappyBird */ = {
+			isa = PBXGroup;
+			children = (
+				EA53139A1CA7800E00FF1262 /* AppDelegate.swift */,
+				EA53139C1CA7800E00FF1262 /* ViewController.swift */,
+				EA53139E1CA7800E00FF1262 /* Main.storyboard */,
+				EA5313A11CA7800E00FF1262 /* Assets.xcassets */,
+				EA5313A31CA7800E00FF1262 /* LaunchScreen.storyboard */,
+				EA5313A61CA7800E00FF1262 /* Info.plist */,
+			);
+			path = cpFlappyBird;
+			sourceTree = "<group>";
+		};
+		EA5313AE1CA7800F00FF1262 /* cpFlappyBirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA5313AF1CA7800F00FF1262 /* cpFlappyBirdTests.swift */,
+				EA5313B11CA7800F00FF1262 /* Info.plist */,
+			);
+			path = cpFlappyBirdTests;
+			sourceTree = "<group>";
+		};
+		EA5313B91CA7800F00FF1262 /* cpFlappyBirdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA5313BA1CA7800F00FF1262 /* cpFlappyBirdUITests.swift */,
+				EA5313BC1CA7800F00FF1262 /* Info.plist */,
+			);
+			path = cpFlappyBirdUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA5313961CA7800E00FF1262 /* cpFlappyBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5313BF1CA7800F00FF1262 /* Build configuration list for PBXNativeTarget "cpFlappyBird" */;
+			buildPhases = (
+				EA5313931CA7800E00FF1262 /* Sources */,
+				EA5313941CA7800E00FF1262 /* Frameworks */,
+				EA5313951CA7800E00FF1262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cpFlappyBird;
+			productName = cpFlappyBird;
+			productReference = EA5313971CA7800E00FF1262 /* cpFlappyBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA5313AA1CA7800F00FF1262 /* cpFlappyBirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5313C21CA7800F00FF1262 /* Build configuration list for PBXNativeTarget "cpFlappyBirdTests" */;
+			buildPhases = (
+				EA5313A71CA7800F00FF1262 /* Sources */,
+				EA5313A81CA7800F00FF1262 /* Frameworks */,
+				EA5313A91CA7800F00FF1262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5313AD1CA7800F00FF1262 /* PBXTargetDependency */,
+			);
+			name = cpFlappyBirdTests;
+			productName = cpFlappyBirdTests;
+			productReference = EA5313AB1CA7800F00FF1262 /* cpFlappyBirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA5313B51CA7800F00FF1262 /* cpFlappyBirdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5313C51CA7800F00FF1262 /* Build configuration list for PBXNativeTarget "cpFlappyBirdUITests" */;
+			buildPhases = (
+				EA5313B21CA7800F00FF1262 /* Sources */,
+				EA5313B31CA7800F00FF1262 /* Frameworks */,
+				EA5313B41CA7800F00FF1262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5313B81CA7800F00FF1262 /* PBXTargetDependency */,
+			);
+			name = cpFlappyBirdUITests;
+			productName = cpFlappyBirdUITests;
+			productReference = EA5313B61CA7800F00FF1262 /* cpFlappyBirdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA53138F1CA7800E00FF1262 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tony DeVincenzi";
+				TargetAttributes = {
+					EA5313961CA7800E00FF1262 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EA5313AA1CA7800F00FF1262 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EA5313961CA7800E00FF1262;
+					};
+					EA5313B51CA7800F00FF1262 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EA5313961CA7800E00FF1262;
+					};
+				};
+			};
+			buildConfigurationList = EA5313921CA7800E00FF1262 /* Build configuration list for PBXProject "cpFlappyBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA53138E1CA7800E00FF1262;
+			productRefGroup = EA5313981CA7800E00FF1262 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5313961CA7800E00FF1262 /* cpFlappyBird */,
+				EA5313AA1CA7800F00FF1262 /* cpFlappyBirdTests */,
+				EA5313B51CA7800F00FF1262 /* cpFlappyBirdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA5313951CA7800E00FF1262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5313A51CA7800E00FF1262 /* LaunchScreen.storyboard in Resources */,
+				EA5313A21CA7800E00FF1262 /* Assets.xcassets in Resources */,
+				EA5313A01CA7800E00FF1262 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5313A91CA7800F00FF1262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5313B41CA7800F00FF1262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5313931CA7800E00FF1262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA53139D1CA7800E00FF1262 /* ViewController.swift in Sources */,
+				EA53139B1CA7800E00FF1262 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5313A71CA7800F00FF1262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5313B01CA7800F00FF1262 /* cpFlappyBirdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5313B21CA7800F00FF1262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5313BB1CA7800F00FF1262 /* cpFlappyBirdUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA5313AD1CA7800F00FF1262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA5313961CA7800E00FF1262 /* cpFlappyBird */;
+			targetProxy = EA5313AC1CA7800F00FF1262 /* PBXContainerItemProxy */;
+		};
+		EA5313B81CA7800F00FF1262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA5313961CA7800E00FF1262 /* cpFlappyBird */;
+			targetProxy = EA5313B71CA7800F00FF1262 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA53139E1CA7800E00FF1262 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA53139F1CA7800E00FF1262 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA5313A31CA7800E00FF1262 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5313A41CA7800E00FF1262 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA5313BD1CA7800F00FF1262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA5313BE1CA7800F00FF1262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA5313C01CA7800F00FF1262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cpFlappyBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tony.cpFlappyBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA5313C11CA7800F00FF1262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cpFlappyBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tony.cpFlappyBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA5313C31CA7800F00FF1262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cpFlappyBirdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tony.cpFlappyBirdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cpFlappyBird.app/cpFlappyBird";
+			};
+			name = Debug;
+		};
+		EA5313C41CA7800F00FF1262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cpFlappyBirdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tony.cpFlappyBirdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cpFlappyBird.app/cpFlappyBird";
+			};
+			name = Release;
+		};
+		EA5313C61CA7800F00FF1262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cpFlappyBirdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tony.cpFlappyBirdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cpFlappyBird;
+			};
+			name = Debug;
+		};
+		EA5313C71CA7800F00FF1262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cpFlappyBirdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tony.cpFlappyBirdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cpFlappyBird;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5313921CA7800E00FF1262 /* Build configuration list for PBXProject "cpFlappyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5313BD1CA7800F00FF1262 /* Debug */,
+				EA5313BE1CA7800F00FF1262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5313BF1CA7800F00FF1262 /* Build configuration list for PBXNativeTarget "cpFlappyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5313C01CA7800F00FF1262 /* Debug */,
+				EA5313C11CA7800F00FF1262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA5313C21CA7800F00FF1262 /* Build configuration list for PBXNativeTarget "cpFlappyBirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5313C31CA7800F00FF1262 /* Debug */,
+				EA5313C41CA7800F00FF1262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA5313C51CA7800F00FF1262 /* Build configuration list for PBXNativeTarget "cpFlappyBirdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5313C61CA7800F00FF1262 /* Debug */,
+				EA5313C71CA7800F00FF1262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA53138F1CA7800E00FF1262 /* Project object */;
+}
